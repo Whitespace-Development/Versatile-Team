@@ -5,7 +5,7 @@ var modal = document.getElementById("myModal");
 var modalContent = document.getElementById("modal-content");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("myBtn"); //Testing something
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -26,4 +26,6 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+
+
 }
