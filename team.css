@@ -239,3 +239,75 @@ h1 {
     text-decoration: none;
     cursor: pointer;
   }
+
+  @media screen and (max-width: 600px){
+    .area-container {
+        padding: 25px;
+    }
+    .area-title {
+        font-size: 14px;
+    }
+    .area {
+        padding: 15px;
+    }
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+    .profile-name {
+        font-size: 1.5em;
+    }
+    .bio {
+        font-size: 1em;
+    }
+    .social-media {
+        padding: 5px;
+    }
+    .social-media h2 {
+        font-size: 1.5em;
+    }
+    .social-media a {
+        font-size: 20px;
+    }
+    .btn {
+        padding: 10px 15px;
+    }
+    .btn i {
+        margin-right: 10px;
+    }
+    .btn-1 {
+        margin-top: 10px;
+    }
+    .btn-2 {
+        margin-top: 10px;
+    }
+    .modal-content {
+        margin: 25% auto;
+        width: 90%;
+    }
+    .modal-content h1 {
+        font-size: 1.5em;
+    }
+    .modal-content p {
+        font-size: 1em;
+    }
+    .modal-content img {
+        width: 100%;
+    }
+    .modal-content .btn {
+        padding: 10px 15px;
+    }
+    .modal-content .btn i {
+        margin-right: 5px;
+    }
+    .modal-content .btn-row {
+        flex-direction: column;
+    }
+    .modal-content .btn-1 {
+        margin-bottom: 10px;
+    }
+    .modal-content .btn-2 {
+        margin-top: 10px;
+    }
+    
+  }
