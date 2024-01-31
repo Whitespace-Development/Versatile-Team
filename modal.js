@@ -1,5 +1,5 @@
 // Get the modal
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("formModal");
 
 // Get the content for the modal
 var modalContent = document.getElementById("modal-content");
@@ -16,7 +16,7 @@ btn.onclick = function() {
   modal.style.opacity = 1;
 }
 
-// When the user clicks on <span> (x), close the modal
+// When the user clicks on (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
