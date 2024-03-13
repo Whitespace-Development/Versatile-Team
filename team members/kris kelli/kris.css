@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1546594002-6d74adf4e040?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(231, 132, 231);
+    background-blend-mode: multiply;
+  }
+  
+  h1 {
+    font-weight: 900;
+  }
+  
+  .profile-image {
+    margin: 0 auto;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #323232;
+    border-radius: 50%;
+    background-image: url("https://image9.photobiz.com/8544/3_20200925154816_24505977_xlarge.jpg");
+    background-position: 60% 10%;
+    background-size: 250%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .slogan {
+    margin: 10px auto 20px auto;
+    color: #6f6f6f;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  /* Add Quotes Around Slogan */
+  .slogan::before {
+    content: "\0022";
+  }
+  .slogan::after {
+    content: "\0022";
+  }
+  /* Slogan Spacing Adjustment */
+  .area-container h1 {
+    margin: 15px auto 10px auto;
+  }
+  
