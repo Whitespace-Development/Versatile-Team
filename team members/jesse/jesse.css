@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1532713031318-db2d14e4b3e1?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(215, 187, 215);
+    background-blend-mode: multiply;
+  }
+  
+  .profile-image {
+    background-image: url("../../assets/img/jesse\ headshot.jpg");
+    background-position: left 0% top 12%;
+    background-size: 100%;
+  }
+
+  .btn-1 {
+    background-image: linear-gradient(to left, #743ad5, #d53a9d)
+  }
