@@ -8,8 +8,8 @@ body {
   
   .profile-image {
     background-image: url("../../assets/img/jesse\ headshot.jpg");
-    background-position: left 0% top 12%;
-    background-size: 100%;
+    background-position: left 100% top 75%;
+    background-size: 110%;
   }
 
   .btn-1 {
