@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1473177104440-ffee2f376098?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") !important;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(215, 187, 215);
+    background-blend-mode: multiply;
+  }
+  
+  .profile-image {
+    background-image: url("https://image9.photobiz.com/3015/3_20200925150621_24505803_xlarge.jpg");
+    background-position: left 45% top 22%;
+    background-size: 100%;
+  }
+
+  .btn-1 {
+    background-image: linear-gradient(to left, #743ad5, #d53a9d)
+  }
