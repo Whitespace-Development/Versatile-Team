@@ -70,6 +70,17 @@ h1 {
   cursor: pointer;
 }
 
+/* For Buttons w/ Imgs i.e. bio videos*/
+.img-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.img-btn img {
+  width: 25px
+}
+
+
 .grow {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
