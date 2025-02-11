@@ -136,7 +136,7 @@ h1 {
   top: -20px;
   width: 50%;
   transform: translateX(-50%);
-  z-index: 1;
+  z-index: 2;
   margin: 0 0 15px 0;
   border: 2px solid black;
   border-radius: 5px;
@@ -169,6 +169,21 @@ h1 {
   margin: 0;
 }
 
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  max-width: 100%;
+  background: #000;
+  z-index: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .bio {
   letter-spacing: 1px;
   line-height: 1.25;
