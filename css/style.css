@@ -236,6 +236,7 @@ h1 {
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   opacity: 0; /* Start fully transparent */
   transition: opacity 1s ease-in-out; /* Fade transition */
+  z-index: 10;
 }
 
 .modal-content {
@@ -243,8 +244,10 @@ h1 {
   margin: 8% auto; /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
+  max-width: 800px;
   width: 80%; /* Could be more or less, depending on screen size */
   border-radius: 5px;
+  z-index: 100;
 }
 
 .close {
